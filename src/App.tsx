@@ -1,4 +1,5 @@
 import HeroSection from "./components/HeroSection";
+import HostSection from "./components/HostSection";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <NavBar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
+        <HostSection />
       </div>
     </>
   );

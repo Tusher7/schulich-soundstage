@@ -1,7 +1,7 @@
 import logo from "../assets/soundstage-logo-white-no-text.png";
 import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
-import { use, useState } from "react";
+import { useState } from "react";
 
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+      <nav className="fixed top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
         <div className="container px-4 mx-auto relative text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
