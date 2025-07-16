@@ -4,6 +4,7 @@ import { CalendarX2 } from "lucide-react";
 import { Music } from "lucide-react";
 import { MicVocal } from "lucide-react";
 import { Guitar } from "lucide-react";
+
 export const navItems = [
   { label: "About", href: "#" },
   { label: "Events", href: "#" },
@@ -14,6 +15,16 @@ export const navItems = [
   { label: "Gallery", href: "#" },
   { label: "Merch", href: "#" },
   { label: "Hire us!", href: "#" },
+];
+
+export const images = [
+  "src/assets/events-images/R62_4888-CR3.jpg",
+  "src/assets/events-images/R62_4926-CR3.jpg",
+  "src/assets/events-images/R62_5037-CR3.jpg",
+  "src/assets/events-images/R62_5056-CR3.jpg",
+  "src/assets/events-images/calg.webp",
+  "src/assets/events-images/FebruaryOpenMicSoundStage-9.jpg",
+  "src/assets/events-images/Open Mic January Recap-1.jpg",
 ];
 
 export const hostItems = [
@@ -38,9 +49,10 @@ export const hostItems = [
   {
     label: "Year End Festival",
     description:
-      "This festival aims to celebrate local musical talent, promote student musicianship, foster community among artists, provide an immersive audience experience, and support our mission to create an inclusive and dynamic platform for Calgary’s vibrant music scene.",
+      "This festival aims to celebrate local musical talent, promote student musicianship, foster community among artists, provide an immersive audience experience",
     icon: <CalendarX2 />,
   },
+
   {
     label: "Open Mics!",
     description:

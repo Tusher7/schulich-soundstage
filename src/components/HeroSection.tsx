@@ -3,7 +3,7 @@ import logo from "../assets/soundstage-logo-white.png";
 const HeroSection = () => {
   return (
     <div>
-      <div className="flex flex-col items-center mt-6 lg:-mt-4">
+      <div className="flex flex-col items-center mt-6 lg:mt-3">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           Schulich Soundstage
         </h1>
