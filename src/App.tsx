@@ -1,3 +1,4 @@
+import CommunityStats from "./components/CommunityStats";
 import Events from "./components/Events";
 import HeroSection from "./components/HeroSection";
 import HostSection from "./components/HostSection";
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <HostSection />
         <Events />
+        <CommunityStats />
       </div>
     </>
   );
