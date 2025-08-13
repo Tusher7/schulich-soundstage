@@ -10,6 +10,7 @@ import EventCalendar from "./components/EventCalendar";
 function App() {
   return (
     <>
+      <div className="pt-16 md:pt-20 bg-[#BC4A6B] -mb-20"></div>
       <NavBar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />

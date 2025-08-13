@@ -31,10 +31,10 @@ const NavBar = () => {
             <div className="hidden lg:flex justify-center space-x-12 item-center">
               <a
                 href="#"
-                className="py-2 px-3 border rounded-md bg-gradient-to-r to-gray-800"
+                className="font-bold py-2 px-3 border rounded-md bg-black"
               >
                 {" "}
-                Apply{" "}
+                Apply to become an EXEC!{" "}
               </a>
             </div>
             <div className="lg:hidden md:flex flex-col justify-end">
