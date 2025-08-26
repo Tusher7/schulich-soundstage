@@ -16,8 +16,10 @@ const NavBar = () => {
         <div className="container px-4 mx-auto relative text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
-              <img className="h-15 w-15 mr-2" src={logo} alt="logo" />
-              <span className="text-xl tracking-tight">
+              <div className="bg-black rounded-xl flex items-center h-15 w-15">
+                <img className="h-15 w-15 mr-2" src={logo} alt="logo" />
+              </div>
+              <span className="ml-2 text-xl tracking-tight">
                 Schulich Soundstage
               </span>
             </div>

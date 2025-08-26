@@ -207,3 +207,5 @@ export const stats = [
   { label: "Workshops", value: 200 },
   { label: "Radio Episodes", value: 60 },
 ];
+
+export const execs = [{ name: "Tusher" }];

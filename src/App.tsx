@@ -5,7 +5,8 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import HostSection from "./components/HostSection";
 import NavBar from "./components/NavBar";
-import EventCalendar from "./components/EventCalendar";
+import Reviews from "./components/Reviews";
+import Executives from "./components/Executives";
 
 function App() {
   return (
@@ -18,7 +19,11 @@ function App() {
       </div>
       <Events />
       <ClubStats />
-      <EventCalendar />
+      <div className="max-w-7xl mx-auto pt-20 px-6">
+        <Reviews />
+      </div>
+      <Executives></Executives>
+
       <Footer />
     </>
   );
