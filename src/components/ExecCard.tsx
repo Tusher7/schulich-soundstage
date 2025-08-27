@@ -1,4 +1,6 @@
-const Executives = () => {
+import React from "react";
+
+const ExecCard = () => {
   return (
     <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <div className="flex flex-col items-center pb-10">
@@ -30,4 +32,4 @@ const Executives = () => {
   );
 };
 
-export default Executives;
+export default ExecCard;

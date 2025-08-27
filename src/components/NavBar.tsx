@@ -3,7 +3,12 @@ import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const NavBar = () => {
+interface Props {
+  tabSelected: string;
+  setTabSelection: (tab: string) => void;
+}
+
+const NavBar = ({ tabSelected, setTabSelection }: Props) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const toggleNavBar = () => {
@@ -26,7 +31,15 @@ const NavBar = () => {
             <ul className="hidden lg:flex ml-14 space-x-12">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href}>{item.label}</a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault;
+                      setTabSelection(item.tab);
+                    }}
+                    href={item.href}
+                  >
+                    {item.label}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -36,7 +49,7 @@ const NavBar = () => {
                 className="font-bold py-2 px-3 border rounded-md bg-black"
               >
                 {" "}
-                Apply to become an EXEC!{" "}
+                APPLY!{" "}
               </a>
             </div>
             <div className="lg:hidden md:flex flex-col justify-end">

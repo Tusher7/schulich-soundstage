@@ -6,15 +6,16 @@ import { MicVocal } from "lucide-react";
 import { Guitar } from "lucide-react";
 
 export const navItems = [
-  { label: "About", href: "#" },
-  { label: "Events", href: "#" },
-  { label: "Executive Team", href: "#" },
-  { label: "Workshops", href: "#" },
-  { label: "Radio", href: "#" },
-  { label: "Sponsors", href: "#" },
-  { label: "Gallery", href: "#" },
-  { label: "Merch", href: "#" },
-  { label: "Hire us!", href: "#" },
+  { label: "Home", href: "#", tab: "home" },
+  { label: "About", href: "#", tab: "about" },
+  { label: "Events", href: "#", tab: "events" },
+  { label: "Executive Team", href: "#", tab: "execs" },
+  { label: "Workshops", href: "#", tab: "workshops" },
+  { label: "Radio", href: "#", tab: "radio" },
+  { label: "Sponsors", href: "#", tab: "sponsors" },
+  { label: "Gallery", href: "#", tab: "gallery" },
+  { label: "Merch", href: "#", tab: "merch" },
+  { label: "Hire us!", href: "#", tab: "hire" },
 ];
 
 export const images = [

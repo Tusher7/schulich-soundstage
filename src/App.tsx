@@ -1,30 +1,21 @@
-import { Calendar } from "lucide-react";
-import ClubStats from "./components/ClubStats";
-import Events from "./components/Events";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import HostSection from "./components/HostSection";
+import { useState } from "react";
+import HomePage from "./components/Tabs/HomePage";
+import About from "./components/Tabs/About";
+import Executives from "./components/Tabs/Executives";
 import NavBar from "./components/NavBar";
-import Reviews from "./components/Reviews";
-import Executives from "./components/Executives";
 
 function App() {
+  const [tabSelected, setTabSelected] = useState("home");
+  const setTabSelection = (tab: string) => {
+    setTabSelected(tab);
+  };
   return (
     <>
       <div className="pt-16 md:pt-20 bg-[#BC4A6B] -mb-20"></div>
-      <NavBar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <HostSection />
-      </div>
-      <Events />
-      <ClubStats />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <Reviews />
-      </div>
-      <Executives></Executives>
-
-      <Footer />
+      <NavBar tabSelected={tabSelected} setTabSelection={setTabSelection} />
+      {tabSelected === "home" && <HomePage />}
+      {tabSelected === "about" && <About />}
+      {tabSelected === "execs" && <Executives />}
     </>
   );
 }
