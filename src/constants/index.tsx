@@ -9,7 +9,7 @@ export const navItems = [
   { label: "Home", href: "#", tab: "home" },
   { label: "About", href: "#", tab: "about" },
   { label: "Events", href: "#", tab: "events" },
-  { label: "Executive Team", href: "#", tab: "execs" },
+  { label: "Executive Team", href: "#", tab: "executiveTeam" },
   { label: "Workshops", href: "#", tab: "workshops" },
   { label: "Radio", href: "#", tab: "radio" },
   { label: "Sponsors", href: "#", tab: "sponsors" },
@@ -209,4 +209,74 @@ export const stats = [
   { label: "Radio Episodes", value: 60 },
 ];
 
-export const execs = [{ name: "Tusher" }];
+export const execs = [
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+];
+
+export const legacyExecs = [
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+];

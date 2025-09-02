@@ -4,11 +4,10 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 interface Props {
-  tabSelected: string;
   setTabSelection: (tab: string) => void;
 }
 
-const NavBar = ({ tabSelected, setTabSelection }: Props) => {
+const NavBar = ({ setTabSelection }: Props) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const toggleNavBar = () => {

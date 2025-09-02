@@ -4,7 +4,7 @@ import HeroSection from "../HeroSection";
 import Events from "../Events";
 import ClubStats from "../ClubStats";
 import Reviews from "../Reviews";
-import Executives from "./Executives";
+import Executives from "./ExecutiveTeam";
 import Footer from "../Footer";
 import HostSection from "../HostSection";
 
@@ -20,7 +20,6 @@ const HomePage = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <Reviews />
       </div>
-      <Executives></Executives>
 
       <Footer />
     </div>
