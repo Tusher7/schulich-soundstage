@@ -1,4 +1,4 @@
-import { execs, legacyExecs } from "../../constants";
+import { execs, legacyExecs, teamLeads } from "../../constants";
 import ExecList from "../ExecList";
 import LeaderCard from "../LeaderCard";
 const ExecutiveTeam = () => {
@@ -11,11 +11,11 @@ const ExecutiveTeam = () => {
       <h1 className="font-dosis font-light text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide mt-23">
         SCHULICH SOUNDSTAGE{" "}
       </h1>
-      <h2 className="font-dosis font-light text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide mt-10 bg-red-600 mb-23 ">
+      <h2 className="font-dosis font-light text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide mt-10 bg-red-800 mb-23 ">
         LEADERSHIP TEAM
       </h2>
       <div className="flex gap-4 mb-35 items-stretch">
-        <div className="w-1/2 rounded-xl bg-red-200 overflow-hidden">
+        <div>
           <LeaderCard
             name="Mateo"
             heading="President - MATEO OVERDULVE"
@@ -23,7 +23,7 @@ const ExecutiveTeam = () => {
             headshot="src/assets/exec-headshots/mateo headshot.jpg"
           />
         </div>
-        <div className="w-1/2 rounded-xl overflow-hidden bg-blue-500">
+        <div>
           <LeaderCard
             name="Mateo"
             heading="Vice President - ATHARVA MOHANDAS"
@@ -32,6 +32,7 @@ const ExecutiveTeam = () => {
           />
         </div>
       </div>
+      <ExecList listHeader="TEAM LEADS" listType={teamLeads} />
       <ExecList listHeader="EXECUTIVE TEAM" listType={execs} />
       <ExecList listHeader="Legacy EXECUTIVES" listType={legacyExecs} />
     </>

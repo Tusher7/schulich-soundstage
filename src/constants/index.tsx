@@ -280,3 +280,12 @@ export const legacyExecs = [
     headshot: "src/assets/exec-headshots/headshoy 2.jpg",
   },
 ];
+
+export const teamLeads = [
+  {
+    name: "Tusher",
+    role: "VP Workshops",
+    link: "https://www.linkedin.com/in/khondaker-samin-rashid-785863240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSUTrdV9yTaKCCu1lww5q6w%3D%3D",
+    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+  },
+];
