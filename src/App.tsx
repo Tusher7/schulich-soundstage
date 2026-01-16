@@ -3,6 +3,7 @@ import HomePage from "./components/Tabs/HomePage";
 import About from "./components/Tabs/About";
 import NavBar from "./components/NavBar";
 import ExecutiveTeam from "./components/Tabs/ExecutiveTeam";
+import Events from "./components/Tabs/EventsPage";
 
 function App() {
   const [tabSelected, setTabSelected] = useState("home");
@@ -16,6 +17,7 @@ function App() {
       {tabSelected === "home" && <HomePage />}
       {tabSelected === "about" && <About />}
       {tabSelected === "executiveTeam" && <ExecutiveTeam />}
+      {tabSelected === "events" && <Events />}
     </>
   );
 }
