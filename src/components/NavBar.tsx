@@ -1,4 +1,4 @@
-import logo from "../assets/soundstage-logo-white-no-text.png";
+import logo from "../assets/soundstage-logo-white-no-text.webp";
 import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";

@@ -1,4 +1,4 @@
-import logo from "../assets/soundstage-logo-white.png";
+import logo from "../assets/soundstage-logo-white.webp";
 
 const HeroSection = () => {
   return (
