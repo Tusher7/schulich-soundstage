@@ -483,18 +483,11 @@ export const images = [
 
 export const hostItems = [
   {
-    label: "Radio",
+    label: "Open Mics!",
     description:
-      "Its your sound, on your stage, on Soundstage Off‑Stage. This CJSW segment is broadcast Calgary-wide from 10-11 am on Thursdays.",
-    image: "src/assets/radio/radio21.webp",
-    tab: "radio",
-  },
-  {
-    label: "Workshops",
-    description:
-      "We teach weekly lessons on music design and performance, providing both students and faculty with opportunities to learn and refine musical skills.",
-    image: "src/assets/ws/guitar ws.webp",
-    tab: "workshops",
+      "Our open mics attract audiences of 100+ people, estimated to be one of the largest open mics in Calgary.",
+    image: "src/assets/events-images/FebruaryOpenMicSoundStage-27.webp",
+    tab: "",
   },
   {
     label: "Music Night Out",
@@ -510,13 +503,12 @@ export const hostItems = [
     image: "src/assets/events-images/IMG_6989.webp",
     tab: "",
   },
-
   {
-    label: "Open Mics!",
+    label: "Workshops",
     description:
-      "Our open mics attract audiences of 100+ people, estimated to be one of the largest open mics in Calgary.",
-    image: "src/assets/events-images/FebruaryOpenMicSoundStage-27.webp",
-    tab: "",
+      "We teach weekly lessons on music design and performance, providing both students and faculty with opportunities to learn and refine musical skills.",
+    image: "src/assets/ws/guitar ws.webp",
+    tab: "workshops",
   },
   {
     label: "Gigs",
@@ -524,6 +516,13 @@ export const hostItems = [
       "Whether it's a campus event, local venue, or community gathering, our gigs offer exposure and networking opportunities for spiring artists.",
     image: "src/assets/gigs/IMG_1887.webp",
     tab: "hire",
+  },
+  {
+    label: "Radio",
+    description:
+      "Its your sound, on your stage, on Soundstage Off‑Stage. This CJSW segment is broadcast Calgary-wide from 10-11 am on Thursdays.",
+    image: "src/assets/radio/radio21.webp",
+    tab: "radio",
   },
 ];
 
@@ -586,7 +585,7 @@ export const execs = [
     name: "Cole",
     role: "VP Technical",
     link: "NA",
-    headshot: "src/assets/exec-headshots/cole temp.png",
+    headshot: "src/assets/soundstage-logo-black.webp",
   },
   {
     name: "Coleminer",
@@ -610,7 +609,7 @@ export const execs = [
     name: "Fatima",
     role: "VP Radio",
     link: "NA",
-    headshot: "src/assets/exec-headshots/headshoy 2.jpg",
+    headshot: "src/assets/soundstage-logo-black.webp",
   },
   {
     name: "Gabe",
@@ -647,7 +646,7 @@ export const execs = [
     name: "Katrina",
     role: "Jr. VP Comms",
     link: "https://www.linkedin.com/in/katrinalahey/",
-    headshot: "src/assets/exec-headshots/katrina.webp",
+    headshot: "src/assets/exec-headshots/kattrina.webp",
   },
   {
     name: "Julianna",
@@ -658,8 +657,8 @@ export const execs = [
   {
     name: "Kaycie",
     role: "VP External",
-    link: "https://www.linkedin.com/in/kcaralyna/",
-    headshot: "src/assets/exec-headshots/kaycie.webp",
+    link: "NA",
+    headshot: "src/assets/soundstage-logo-black.webp",
   },
   {
     name: "Manjaap",
@@ -704,7 +703,7 @@ export const legacyExecs = [
     name: "Hunter",
     role: "Ex-President",
     link: "https://www.linkedin.com/in/hunter-marcelo/",
-    headshot: "src/assets/events-images/Open Mic January Recap-25.webp",
+    headshot: "src/assets/exec-headshots/hunter.webp",
   },
   {
     name: "Tara",
