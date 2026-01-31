@@ -2,9 +2,17 @@ interface Props {
   title: string;
   image: string;
   description: string;
+  tab: string;
+  setTabSelection: (tab: string) => void;
 }
 
-const HostInfoCard = ({ title, image, description }: Props) => {
+const HostInfoCard = ({
+  title,
+  image,
+  description,
+  tab,
+  setTabSelection,
+}: Props) => {
   return (
     <div className="bg-black rounded-lg overflow-hidden border border-zinc-700 max-w-sm transition-transform duration-300 hover:scale-105">
       <img src={image} alt={title} className="w-full h-50 object-cover" />

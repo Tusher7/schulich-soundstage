@@ -1,27 +1,31 @@
-import React from "react";
-import NavBar from "../NavBar";
 import HeroSection from "../HeroSection";
 import Events from "../Events";
 import ClubStats from "../ClubStats";
-import Reviews from "../Reviews";
-import Executives from "./ExecutiveTeam";
-import Footer from "../Footer";
 import HostSection from "../HostSection";
+import Apply from "../Apply";
+import { Reveal } from "../Reveal";
 
-const HomePage = () => {
+interface Props {
+  setTabSelection: (tab: string) => void;
+  isLoaded: Boolean;
+  tabSelected: string;
+}
+const HomePage = ({ setTabSelection, isLoaded, tabSelected }: Props) => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <HostSection />
-      </div>
+      <Reveal>
+        <div className="max-w-7xl mx-auto pt-20 px-6">
+          <HeroSection isLoaded={isLoaded} tabSelected={tabSelected} />
+          <HostSection setTabSelection={setTabSelection} />
+        </div>
+      </Reveal>
       <Events />
-      <ClubStats />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <Reviews />
-      </div>
-
-      <Footer />
+      <Reveal>
+        <ClubStats />
+      </Reveal>
+      <Reveal>
+        <Apply />
+      </Reveal>
     </div>
   );
 };

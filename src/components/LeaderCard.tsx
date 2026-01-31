@@ -3,9 +3,10 @@ interface Props {
   heading: string;
   description: string;
   headshot: string;
+  href?: string;
 }
 
-const LeaderCard = ({ name, heading, description, headshot }: Props) => {
+const LeaderCard = ({ name, heading, description, headshot, href }: Props) => {
   return (
     <div className="h-full">
       <div className="flex flex-col items-center bg-white border border-gray-200 shadow-sm md:flex-row w-full h-full min-h-[20rem] md:min-h-[24rem] rounded-lg overflow-hidden dark:border-gray-700 dark:bg-gray-900">
@@ -23,18 +24,22 @@ const LeaderCard = ({ name, heading, description, headshot }: Props) => {
               {description}
             </p>
           </div>
-          <div className="mt-4 md:mt-6">
-            <a
-              href="#"
-              className="inline-flex items-center px-4 py-2 
+          {href && (
+            <div className="mt-4 md:mt-6">
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 
             text-sm font-medium text-center text-white 
             bg-[#BC4A6B] rounded-lg hover:bg-red-800 focus:ring-4 
             focus:outline-none focus:ring-blue-500 dark:bg-[#BC4A6B] 
             dark:hover:bg-red-700 dark:focus:ring-blue-500              "
-            >
-              LinkedIn
-            </a>
-          </div>
+              >
+                LinkedIn
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
