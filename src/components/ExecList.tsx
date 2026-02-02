@@ -1,5 +1,4 @@
 import ExecCard from "./ExecCard";
-import { Reveal } from "./Reveal";
 
 interface Team {
   name: string;

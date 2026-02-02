@@ -1,11 +1,7 @@
 import { hostItems } from "../constants";
 import HostInfoCard from "./HostInfoCard";
-import { Reveal } from "./Reveal";
 
-interface Props {
-  setTabSelection: (tab: string) => void;
-}
-const HostSection = ({ setTabSelection }: Props) => {
+const HostSection = () => {
   return (
     <>
       <h3 className="text-center text-3xl font-medium">
@@ -15,7 +11,6 @@ const HostSection = ({ setTabSelection }: Props) => {
         {hostItems.map((item) => (
           <HostInfoCard
             tab={item.tab}
-            setTabSelection={setTabSelection}
             key={item.label}
             title={item.label}
             image={item.image}

@@ -1,7 +1,6 @@
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { stats } from "../constants";
-import { Reveal } from "./Reveal";
 
 const ClubStats = () => {
   const { ref, inView } = useInView({ triggerOnce: true });
