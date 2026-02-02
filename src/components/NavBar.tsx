@@ -1,4 +1,3 @@
-import logo from "../assets/soundstage-logo-white-no-text.webp";
 import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -30,7 +29,11 @@ const NavBar = ({ setTabSelection }: Props) => {
                 }}
               >
                 <div className="bg-black rounded-xl flex items-center h-15 w-15">
-                  <img className="h-15 w-15 mr-2" src={logo} alt="logo" />
+                  <img
+                    className="h-15 w-15 mr-2"
+                    src="public/assets/soundstage-logo-white-no-text.webp"
+                    alt="logo"
+                  />
                 </div>
                 <span className="ml-2 text-xl tracking-tight">
                   Schulich Soundstage

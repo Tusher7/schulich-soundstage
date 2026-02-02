@@ -26,7 +26,7 @@ const ExecutiveTeam = () => {
               name="Mateo"
               heading="President - MATEO OVERDULVE"
               description={descriptionPresident}
-              headshot="src/assets/exec-headshots/mateo headshot.webp"
+              headshot="/assets/exec-headshots/mateo headshot.webp"
               href="https://www.linkedin.com/search/results/all/?keywords=mateo&origin=GLOBAL_SEARCH_HEADER&sid=TLi"
             />
           </div>
@@ -36,7 +36,7 @@ const ExecutiveTeam = () => {
               name="Atharva"
               heading="Vice President - ATHARVA MOHANDAS"
               description={descriptionVP}
-              headshot="src/assets/exec-headshots/atharva headshot.webp"
+              headshot="/assets/exec-headshots/atharva headshot.webp"
               href="https://www.linkedin.com/in/atharva-mohandas-97aa0034a/"
             />
           </div>

@@ -32,8 +32,8 @@ const EventsPage = () => {
         <section id="calendar">
           <Reveal>
             <div className="grid lg:grid-cols-2 flex gap-4 mb-35 p-4 items-stretch">
-              <img src="src/assets/calendar/feb-calendar.webp" />
-              <img src="src/assets/calendar/feb-summary.webp" />
+              <img src="/assets/calendar/feb-calendar.webp" />
+              <img src="/assets/calendar/feb-summary.webp" />
             </div>
           </Reveal>
         </section>
