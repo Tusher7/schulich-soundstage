@@ -28,19 +28,10 @@ const Radio = () => {
           wave gets loud. Tune in, turn up, and step offstage with us.
         </p>
         <div className="flex justify-center mt-10">
-          <a
-            href="https://cjsw.com/program/soundstage-offstage/?utm_source=copilot.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="dark:text-gray-900 text-black bg-gradient-to-r from-teal-200 to-lime-200
-                      hover:bg-gradient-to-l hover:from-teal-300 hover:to-lime-300 dark:text-gray-100 
-                      dark:bg-gray-900 dark:border dark:border-gray-600 dark:hover:bg-gray-800 dark:hover:border-gray-400 
-                      focus:outline-none focus:ring-4 focus:ring-lime-200 dark:focus:ring-teal-700 rounded-lg text-lg sm:text-xl lg:text-2xl
-                      tracking-wide px-5 py-2.5 mb-2 transition-all duration-200"
-          >
+          <Button href="https://cjsw.com/program/soundstage-offstage/?utm_source=copilot.com">
             Check out our episodes!{" "}
             {<HiArrowNarrowRight className="inline mb-1 ml-2" />}
-          </a>
+          </Button>
         </div>
         <GalleryGrid images={radioImages} />
         <div className="w-full mx-auto mt-12 mb-12 text-center">
@@ -49,7 +40,7 @@ const Radio = () => {
           </h3>
         </div>
         <div className="flex justify-center mt-5">
-          <Button>
+          <Button href="https://forms.gle/94b1FiDe7tJr7thH7">
             Request to be a guest!{" "}
             {<HiArrowNarrowRight className="inline mb-1 ml-2" />}
           </Button>

@@ -31,7 +31,7 @@ const NavBar = ({ setTabSelection }: Props) => {
                 <div className="bg-black rounded-xl flex items-center h-15 w-15">
                   <img
                     className="h-15 w-15 mr-2"
-                    src="public/assets/soundstage-logo-white-no-text.webp"
+                    src="/assets/soundstage-logo-white-no-text.webp"
                     alt="logo"
                   />
                 </div>

@@ -35,7 +35,7 @@ const HeroSection = ({ isLoaded, tabSelected, setTabSelection }: Props) => {
         <div className="flex justify-center">
           <img
             className="rounded-lg w-[48%] mx-2 my-0"
-            src="public/assets/soundstage-logo-black.webp"
+            src="/assets/soundstage-logo-black.webp"
             alt="Soundstage Logo"
           />
         </div>

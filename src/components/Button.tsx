@@ -1,12 +1,13 @@
 interface Props {
   children: React.ReactNode;
+  href: string;
 }
 
-const Button = ({ children }: Props) => {
+const Button = ({ children, href }: Props) => {
   return (
     <div>
       <a
-        href="https://tr.ee/-gTm6KmuFs"
+        href={href}
         target="_blank"
         rel="noopener noreferrer"
         className="dark:text-gray-900 text-black bg-gradient-to-r from-teal-200 to-lime-200

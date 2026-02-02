@@ -127,7 +127,7 @@ const HireUs = () => {
           the service that best fits your needs!
         </p>
         <div className="flex justify-center mt-5">
-          <Button>Request a Booking! </Button>
+          <Button href="https://tr.ee/-gTm6KmuFs">Request a Booking! </Button>
         </div>
       </Reveal>
     </div>

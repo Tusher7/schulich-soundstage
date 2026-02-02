@@ -21,7 +21,7 @@ const Workshops = () => {
         </p>
 
         <div className="flex justify-center mt-4 -mb-2">
-          <Button>
+          <Button href="https://schulich.libcal.com/calendar?cid=8318&t=d&d=0000-00-00&cal=8318&inc=0">
             Sign up for Workshops!{" "}
             {<HiArrowNarrowRight className="inline mb-1 ml-2" />}
           </Button>
