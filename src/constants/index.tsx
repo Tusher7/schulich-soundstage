@@ -61,7 +61,7 @@ export const gigsImagesOne = [
   {
     src: "src/assets/gigs/IMG_1876.webp",
     spanRow: 1,
-    spanCol: 2,
+    spanCol: 1,
   },
   {
     src: "src/assets/gigs/IMG_1887.webp",
@@ -78,15 +78,16 @@ export const gigsImagesFour = [
   {
     src: "src/assets/gigs/IMG_3627.webp",
     spanRow: 1,
-    spanCol: 2,
+    spanCol: 1,
   },
+
   {
-    src: "src/assets/gigs/IMG_3675.webp",
+    src: "src/assets/gigs/IMG_3685.webp",
     spanRow: 1,
     spanCol: 2,
   },
   {
-    src: "src/assets/gigs/IMG_3685.webp",
+    src: "src/assets/gigs/IMG_3675.webp",
     spanRow: 1,
     spanCol: 2,
   },
@@ -95,7 +96,7 @@ export const gigsImagesTwo = [
   {
     src: "src/assets/gigs/IMG_3686.webp",
     spanRow: 1,
-    spanCol: 2,
+    spanCol: 1,
   },
   {
     src: "src/assets/gigs/IMG_3701.webp",
@@ -112,7 +113,7 @@ export const gigsImagesThree = [
   {
     src: "src/assets/gigs/IMG_3780.webp",
     spanRow: 1,
-    spanCol: 3,
+    spanCol: 2,
   },
   {
     src: "src/assets/gigs/IMG_3812.webp",
@@ -174,7 +175,7 @@ export const radioImages = [
 
   {
     src: "src/assets/radio/radio11.webp",
-    spanRow: 2,
+    spanRow: 1,
     spanCol: 1,
   },
   {
@@ -234,12 +235,6 @@ export const images = [
   },
 
   {
-    src: "src/assets/events-images/FebruaryOpenMicSoundStage-32.webp",
-    spanRow: 1,
-    spanCol: 2,
-  },
-
-  {
     src: "src/assets/events-images/FebruaryOpenMicSoundStage-24.webp",
     spanRow: 1,
     spanCol: 1,
@@ -249,20 +244,47 @@ export const images = [
     spanRow: 1,
     spanCol: 2,
   },
+
   {
-    src: "src/assets/events-images/FebruaryOpenMicSoundStage-21.webp",
+    src: "src/assets/events-images/FebruaryOpenMicSoundStage-32.webp",
     spanRow: 1,
     spanCol: 2,
   },
   {
-    src: "src/assets/events-images/FebruaryOpenMicHunter.webp",
+    src: "src/assets/events-images/m5.jpg",
     spanRow: 1,
-    spanCol: 2,
+    spanCol: 1,
   },
+
   {
     src: "src/assets/events-images/IMG_3999.webp",
     spanRow: 1,
     spanCol: 1,
+  },
+  {
+    src: "src/assets/events-images/m4.jpg",
+    spanRow: 1,
+    spanCol: 2,
+  },
+  {
+    src: "src/assets/events-images/b1.jpg",
+    spanRow: 1,
+    spanCol: 1,
+  },
+  {
+    src: "src/assets/events-images/IMG_4102.webp",
+    spanRow: 1,
+    spanCol: 1,
+  },
+  {
+    src: "src/assets/events-images/FebruaryOpenMicSoundStage-21.webp",
+    spanRow: 2,
+    spanCol: 3,
+  },
+  {
+    src: "src/assets/events-images/FebruaryOpenMicHunter.webp",
+    spanRow: 2,
+    spanCol: 2,
   },
   {
     src: "src/assets/events-images/IMG_3695.webp",
@@ -286,14 +308,10 @@ export const images = [
   },
   {
     src: "src/assets/events-images/IMG_4076.webp",
-    spanRow: 1,
+    spanRow: 2,
     spanCol: 1,
   },
-  {
-    src: "src/assets/events-images/IMG_4102.webp",
-    spanRow: 1,
-    spanCol: 1,
-  },
+
   {
     src: "src/assets/events-images/IMG_4246.webp",
     spanRow: 1,
@@ -306,9 +324,14 @@ export const images = [
     spanCol: 1,
   },
   {
-    src: "src/assets/events-images/IMG_4109.webp",
+    src: "src/assets/events-images/b3.jpg",
     spanRow: 1,
     spanCol: 1,
+  },
+  {
+    src: "src/assets/events-images/IMG_4109.webp",
+    spanRow: 1,
+    spanCol: 2,
   },
   {
     src: "src/assets/events-images/IMG_4113.webp",
@@ -318,25 +341,33 @@ export const images = [
   {
     src: "src/assets/events-images/IMG_4258.webp",
     spanRow: 1,
-    spanCol: 1,
+    spanCol: 2,
   },
   {
     src: "src/assets/events-images/IMG_4317.webp",
     spanRow: 1,
     spanCol: 1,
   },
+
   {
     src: "src/assets/events-images/IMG_4320.webp",
     spanRow: 1,
-    spanCol: 3,
+    spanCol: 2,
   },
   {
     src: "src/assets/events-images/IMG_4363.webp",
     spanRow: 1,
     spanCol: 3,
   },
+
   {
-    src: "src/assets/events-images/20230206-SSC-First Generation Networking Night-044.webp",
+    src: "src/assets/events-images/b4.jpg",
+    spanRow: 1,
+    spanCol: 1,
+  },
+
+  {
+    src: "src/assets/events-images/ddsf.webp",
     spanRow: 1,
     spanCol: 1,
   },
@@ -346,7 +377,7 @@ export const images = [
     spanCol: 2,
   },
   {
-    src: "src/assets/events-images/ddsf.webp",
+    src: "src/assets/events-images/m1.jpg",
     spanRow: 1,
     spanCol: 1,
   },
@@ -368,7 +399,7 @@ export const images = [
   },
   {
     src: "src/assets/events-images/IMG_4697.webp",
-    spanRow: 2,
+    spanRow: 1,
     spanCol: 2,
   },
   {
@@ -383,12 +414,12 @@ export const images = [
   },
   {
     src: "src/assets/events-images/KHS09804.webp",
-    spanRow: 2,
+    spanRow: 1,
     spanCol: 1,
   },
   {
-    src: "src/assets/events-images/Open Mic January Naheen and Hai.webp",
-    spanRow: 1,
+    src: "src/assets/exec-headshots/jame.webp",
+    spanRow: 2,
     spanCol: 1,
   },
   {
@@ -397,7 +428,13 @@ export const images = [
     spanCol: 1,
   },
   {
-    src: "src/assets/events-images/Open Mic January Recap-15.webp",
+    src: "src/assets/events-images/m2.png",
+    spanRow: 1,
+    spanCol: 1,
+  },
+
+  {
+    src: "src/assets/events-images/r62_1.webp",
     spanRow: 1,
     spanCol: 1,
   },
@@ -411,10 +448,11 @@ export const images = [
     spanRow: 1,
     spanCol: 1,
   },
+
   {
-    src: "src/assets/events-images/r62_1.webp",
+    src: "src/assets/events-images/m3.png",
     spanRow: 1,
-    spanCol: 1,
+    spanCol: 2,
   },
   {
     src: "src/assets/events-images/R62_4888-CR3.webp",
@@ -425,7 +463,7 @@ export const images = [
   {
     src: "src/assets/events-images/R62_4926-CR3.webp",
     spanRow: 1,
-    spanCol: 1,
+    spanCol: 2,
   },
 
   {
@@ -453,6 +491,11 @@ export const images = [
     spanRow: 1,
     spanCol: 1,
   },
+  {
+    src: "src/assets/events-images/R62_7277-CR3.webp",
+    spanRow: 1,
+    spanCol: 1,
+  },
 
   {
     src: "src/assets/events-images/R62_7221-CR3.webp",
@@ -471,11 +514,6 @@ export const images = [
   },
   {
     src: "src/assets/events-images/R62_7256-CR3.webp",
-    spanRow: 1,
-    spanCol: 1,
-  },
-  {
-    src: "src/assets/events-images/R62_7277-CR3.webp",
     spanRow: 1,
     spanCol: 1,
   },
@@ -558,113 +596,22 @@ export const execs = [
     headshot: "src/assets/exec-headshots/justin.jpg",
   },
   {
+    name: "Tiffany",
+    role: "VP Marketing",
+    link: "https://www.linkedin.com/in/yautiffany/",
+    headshot: "src/assets/exec-headshots/tiff.jpg",
+  },
+  {
     name: "Raj",
     role: "VP Technical",
     link: "NA",
     headshot: "src/assets/events-images/Open Mic January Recap-2.webp",
   },
   {
-    name: "Brie",
-    role: "Jr. VP Events",
-    link: "NA",
-    headshot: "src/assets/exec-headshots/brielle.webp",
-  },
-  {
-    name: "Carter",
-    role: "VP Events",
-    link: "NA",
-    headshot: "src/assets/exec-headshots/carter.webp",
-  },
-  {
-    name: "Anita",
-    role: "Jr. VP Gigs",
-    link: "https://www.linkedin.com/in/anita-ahansaz-23345a1aa/",
-    headshot: "src/assets/exec-headshots/Anita.jpg",
-  },
-  {
-    name: "Cole",
-    role: "VP Technical",
-    link: "NA",
-    headshot: "src/assets/soundstage-logo-black.webp",
-  },
-  {
-    name: "Coleminer",
-    role: "Jr. VP Workshops",
-    link: "https://www.linkedin.com/in/coleman-plante-288705379",
-    headshot: "src/assets/exec-headshots/coleminer.webp",
-  },
-  {
-    name: "Erin",
-    role: "VP Radio",
-    link: "https://www.linkedin.com/in/erin-rose-ealing-97438b244/",
-    headshot: "src/assets/exec-headshots/erin.webp",
-  },
-  {
-    name: "Natalie",
-    role: "Jr. VP Events",
-    link: "https://www.linkedin.com/in/natalie-zabrowski/",
-    headshot: "src/assets/exec-headshots/natalie.jpg",
-  },
-  {
     name: "Fatima",
     role: "VP Radio",
     link: "NA",
-    headshot: "src/assets/soundstage-logo-black.webp",
-  },
-  {
-    name: "Gabe",
-    role: "VP Technical",
-    link: "NA",
-    headshot: "src/assets/exec-headshots/gabe.webp",
-  },
-  {
-    name: "Aidan",
-    role: "VP Logistics",
-    link: "https://www.linkedin.com/in/aidan-yokoyama-9a0240224/",
-    headshot: "src/assets/exec-headshots/aidan.webp",
-  },
-  {
-    name: "Imonite",
-    role: "Jr. VP Gigs",
-    link: "https://www.linkedin.com/in/imonitie-omosun-50aa8a278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    headshot: "src/assets/exec-headshots/imoni.webp",
-  },
-  {
-    name: "Gavin",
-    role: "VP Logistics",
-    link: "https://www.linkedin.com/in/gavin-grubert/",
-    headshot: "src/assets/exec-headshots/gavin.jpg",
-  },
-
-  {
-    name: "Kate",
-    role: "VP Marketing",
-    link: "NA",
-    headshot: "src/assets/exec-headshots/kate.webp",
-  },
-  {
-    name: "Katrina",
-    role: "Jr. VP Comms",
-    link: "https://www.linkedin.com/in/katrinalahey/",
-    headshot: "src/assets/exec-headshots/kattrina.webp",
-  },
-  {
-    name: "Julianna",
-    role: "VP External",
-    link: "https://www.linkedin.com/in/julianna-garcia-7921a1214/",
-    headshot: "src/assets/exec-headshots/juli.webp",
-  },
-  {
-    name: "Kaycie",
-    role: "VP External",
-    link: "NA",
-    headshot: "src/assets/soundstage-logo-black.webp",
-  },
-  {
-    name: "Manjaap",
-    role: "Jr. VP Gigs",
-    link: "https://ca.linkedin.com/in/manjaap-sangha-91b933393",
-    headshot: "src/assets/exec-headshots/manjaap.webp",
+    headshot: "src/assets/exec-headshots/fatima.jpg",
   },
   {
     name: "Seraphina",
@@ -673,10 +620,10 @@ export const execs = [
     headshot: "src/assets/events-images/IMG_1400.webp",
   },
   {
-    name: "Tiffany",
-    role: "VP Marketing",
-    link: "https://www.linkedin.com/in/yautiffany/",
-    headshot: "src/assets/exec-headshots/tiff.jpg",
+    name: "Kaycie",
+    role: "VP External",
+    link: "NA",
+    headshot: "src/assets/soundstage-logo-black.webp",
   },
   {
     name: "Valerie",
@@ -685,10 +632,115 @@ export const execs = [
     headshot: "src/assets/exec-headshots/val.webp",
   },
   {
+    name: "Cole",
+    role: "VP Technical",
+    link: "NA",
+    headshot: "src/assets/soundstage-logo-black.webp",
+  },
+  {
+    name: "Erin",
+    role: "VP Radio",
+    link: "https://www.linkedin.com/in/erin-rose-ealing-97438b244/",
+    headshot: "src/assets/exec-headshots/erin.webp",
+  },
+  {
+    name: "Gabe",
+    role: "VP Technical",
+    link: "NA",
+    headshot: "src/assets/exec-headshots/gabe.webp",
+  },
+  {
+    name: "Kate",
+    role: "VP Marketing",
+    link: "NA",
+    headshot: "src/assets/exec-headshots/kate.webp",
+  },
+  {
     name: "Typhen",
     role: "VP Marketing",
     link: "https://www.linkedin.com/in/typhenchan/",
     headshot: "src/assets/events-images/IMG_3999.webp",
+  },
+  {
+    name: "Aidan",
+    role: "VP Logistics",
+    link: "https://www.linkedin.com/in/aidan-yokoyama-9a0240224/",
+    headshot: "src/assets/exec-headshots/aidan.webp",
+  },
+  {
+    name: "Carter",
+    role: "VP Events",
+    link: "NA",
+    headshot: "src/assets/exec-headshots/carter.webp",
+  },
+
+  {
+    name: "Gavin",
+    role: "VP Logistics",
+    link: "https://www.linkedin.com/in/gavin-grubert/",
+    headshot: "src/assets/exec-headshots/gavin.jpg",
+  },
+
+  {
+    name: "Julianna",
+    role: "VP External",
+    link: "https://www.linkedin.com/in/julianna-garcia-7921a1214/",
+    headshot: "src/assets/exec-headshots/juli.webp",
+  },
+  {
+    name: "Brie",
+    role: "Jr. VP Events",
+    link: "NA",
+    headshot: "src/assets/exec-headshots/brielle.webp",
+  },
+
+  {
+    name: "Anita",
+    role: "Jr. VP Gigs",
+    link: "https://www.linkedin.com/in/anita-ahansaz-23345a1aa/",
+    headshot: "src/assets/exec-headshots/Anita.jpg",
+  },
+
+  {
+    name: "Coleman",
+    role: "Jr. VP Workshops",
+    link: "https://www.linkedin.com/in/coleman-plante-288705379",
+    headshot: "src/assets/exec-headshots/coleminer.webp",
+  },
+
+  {
+    name: "Natalie",
+    role: "Jr. VP Events",
+    link: "https://www.linkedin.com/in/natalie-zabrowski/",
+    headshot: "src/assets/exec-headshots/natalie.jpg",
+  },
+
+  {
+    name: "Ryan",
+    role: "Jr. VP Gigs",
+    link: "src/assets/exec-headshots/beans.webp",
+    headshot: "src/assets/exec-headshots/beans.webp",
+  },
+
+  {
+    name: "Imonite",
+    role: "Jr. VP Gigs",
+    link: "https://www.linkedin.com/in/imonitie-omosun-50aa8a278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    headshot: "src/assets/exec-headshots/imoni.webp",
+  },
+
+  {
+    name: "Katrina",
+    role: "Jr. VP Comms",
+    link: "https://www.linkedin.com/in/katrinalahey/",
+    headshot: "src/assets/exec-headshots/kattrina.webp",
+  },
+
+  {
+    name: "Manjaap",
+    role: "Jr. VP Gigs",
+    link: "https://ca.linkedin.com/in/manjaap-sangha-91b933393",
+    headshot: "src/assets/exec-headshots/manjaap.webp",
   },
 ];
 

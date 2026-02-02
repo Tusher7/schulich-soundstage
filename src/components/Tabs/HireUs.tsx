@@ -6,6 +6,7 @@ import { gigsImagesFour } from "../../constants";
 import { PiGuitarBold } from "react-icons/pi";
 import { CiMusicNote1 } from "react-icons/ci";
 import { Reveal } from "../Reveal";
+import Button from "../Button";
 
 const HireUs = () => {
   const experienceList = [
@@ -126,15 +127,7 @@ const HireUs = () => {
           the service that best fits your needs!
         </p>
         <div className="flex justify-center mt-5">
-          <a
-            href="https://tr.ee/-gTm6KmuFs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 
-                        focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 rounded-lg text-lg sm:text-xl lg:text-2xl text-center tracking-wide px-5 py-2.5 text-center mb-2"
-          >
-            Request a Booking!{" "}
-          </a>
+          <Button>Request a Booking! </Button>
         </div>
       </Reveal>
     </div>

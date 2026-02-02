@@ -3,8 +3,9 @@ import logo from "../assets/soundstage-logo-white.webp";
 interface Props {
   isLoaded: Boolean;
   tabSelected: string;
+  setTabSelection: (tab: string) => void;
 }
-const HeroSection = ({ isLoaded, tabSelected }: Props) => {
+const HeroSection = ({ isLoaded, tabSelected, setTabSelection }: Props) => {
   return (
     <div>
       <div className="flex justify-center items-center gap-4 mt-15">
@@ -19,8 +20,15 @@ const HeroSection = ({ isLoaded, tabSelected }: Props) => {
       </p>
 
       <div className="flex justify-center mt-5">
-        <a href="#" className="py-3 px-4 mx-3 border rounded-md bg-[#BC4A6B]">
-          Check Out Our Event Calendar!
+        <a
+          onClick={(e) => {
+            e.preventDefault;
+            setTabSelection("events");
+          }}
+          href="#calendar"
+          className="py-3 px-4 mx-3 border rounded-md bg-[#BC4A6B]"
+        >
+          Check Out Our Calendar!
         </a>
       </div>
       <div

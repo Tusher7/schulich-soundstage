@@ -13,12 +13,17 @@ interface Props {
 const HomePage = ({ setTabSelection, isLoaded, tabSelected }: Props) => {
   return (
     <div>
-      <Reveal>
-        <div className="max-w-7xl mx-auto pt-20 px-6">
-          <HeroSection isLoaded={isLoaded} tabSelected={tabSelected} />
-          <HostSection setTabSelection={setTabSelection} />
-        </div>
-      </Reveal>
+      <div className="max-w-7xl mx-auto pt-20 px-6">
+        <Reveal>
+          <HeroSection
+            setTabSelection={setTabSelection}
+            isLoaded={isLoaded}
+            tabSelected={tabSelected}
+          />
+        </Reveal>
+        <HostSection setTabSelection={setTabSelection} />
+      </div>
+
       <Events />
       <Reveal>
         <ClubStats />

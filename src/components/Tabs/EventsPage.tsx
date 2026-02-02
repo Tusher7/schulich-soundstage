@@ -23,6 +23,21 @@ const EventsPage = () => {
           />
         ))}
       </div>
+      <div>
+        <div className="flex justify-center items-center gap-4 mt-25 mb-10">
+          <h1 className="font-dosis font-light text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+            February Calendar
+          </h1>
+        </div>
+        <section id="calendar">
+          <Reveal>
+            <div className="grid lg:grid-cols-2 flex gap-4 mb-35 p-4 items-stretch">
+              <img src="src/assets/calendar/feb-calendar.webp" />
+              <img src="src/assets/calendar/feb-summary.webp" />
+            </div>
+          </Reveal>
+        </section>
+      </div>
     </div>
   );
 };

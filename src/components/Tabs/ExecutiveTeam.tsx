@@ -20,7 +20,7 @@ const ExecutiveTeam = () => {
           LEADERSHIP TEAM
         </h2>
 
-        <div className="flex gap-4 mb-35 items-stretch">
+        <div className="grid lg:grid-cols-2 flex gap-4 mb-35 items-stretch">
           <div>
             <LeaderCard
               name="Mateo"

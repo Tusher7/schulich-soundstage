@@ -19,7 +19,7 @@ const GalleryGrid = ({ images }: Props) => {
   };
   return (
     <div>
-      <div className="w-full grid grid-cols-6 mt-10 gap-1.5 overflow-hidden">
+      <div className="w-full grid grid-cols-5 mt-10 gap-1.5 overflow-hidden">
         {images.map((image, index) => (
           <img
             key={index}

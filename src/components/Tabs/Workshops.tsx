@@ -2,6 +2,7 @@ import { workshopTopics } from "../../constants";
 import EventComponent from "../EventComponent";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Reveal } from "../Reveal";
+import Button from "../Button";
 
 const Workshops = () => {
   return (
@@ -19,29 +20,23 @@ const Workshops = () => {
           on the calendar!
         </p>
 
-        <div className="flex justify-center mt-4 -mb-11">
-          <a
-            href="https://schulich.libcal.com/calendar?cid=8318&t=d&d=0000-00-00&cal=8318&inc=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 
-              focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 rounded-lg text-lg sm:text-xl lg:text-2xl text-center tracking-wide px-5 py-2.5 text-center mb-2"
-          >
-            Sign up for Upcoming Workshops!{" "}
+        <div className="flex justify-center mt-4 -mb-2">
+          <Button>
+            Sign up for Workshops!{" "}
             {<HiArrowNarrowRight className="inline mb-1 ml-2" />}
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 gap-6 p-4 mt-10 mb-20">
-          {workshopTopics.map((topic) => (
-            <EventComponent
-              heading={topic.heading}
-              description={topic.description}
-              images={topic.images}
-            />
-          ))}
+          </Button>
         </div>
       </Reveal>
+
+      <div className="grid grid-cols-1 gap-6 p-4 mt-10 mb-20">
+        {workshopTopics.map((topic) => (
+          <EventComponent
+            heading={topic.heading}
+            description={topic.description}
+            images={topic.images}
+          />
+        ))}
+      </div>
     </div>
   );
 };
