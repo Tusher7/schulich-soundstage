@@ -21,7 +21,7 @@ const HomePage = ({ setTabSelection, isLoaded, tabSelected }: Props) => {
             tabSelected={tabSelected}
           />
         </Reveal>
-        <HostSection setTabSelection={setTabSelection} />
+        <HostSection />
       </div>
 
       <Events />
