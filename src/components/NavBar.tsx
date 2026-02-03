@@ -26,6 +26,7 @@ const NavBar = ({ setTabSelection }: Props) => {
                 onClick={(e) => {
                   e.preventDefault;
                   setTabSelection("home");
+                  if (mobileOpen) toggleNavBar();
                 }}
               >
                 <div className="bg-black rounded-xl flex items-center h-15 w-15">

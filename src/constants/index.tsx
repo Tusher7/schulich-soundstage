@@ -747,31 +747,31 @@ export const execs = [
 export const legacyExecs = [
   {
     name: "Maria",
-    role: "Ex-President",
+    role: "Former President",
     link: "https://www.linkedin.com/in/maria-law-228214207/",
     headshot: "/assets/exec-headshots/Maria.webp",
   },
   {
     name: "Hunter",
-    role: "Ex-President",
+    role: "Former President",
     link: "https://www.linkedin.com/in/hunter-marcelo/",
     headshot: "/assets/exec-headshots/hunter.webp",
   },
   {
     name: "Tara",
-    role: "Ex-Vice President",
+    role: "Former Vice President",
     link: "https://www.linkedin.com/in/tara-le/",
     headshot: "/assets/exec-headshots/tara.webp",
   },
   {
     name: "James",
-    role: "Ex-VP Technical",
+    role: "Former VP Technical",
     link: "https://www.linkedin.com/in/jukmifgguggh/",
     headshot: "/assets/exec-headshots/jame.webp",
   },
   {
     name: "Deni",
-    role: "Ex-VP Radio",
+    role: "Former VP Radio",
     link: "https://www.linkedin.com/in/deni-hui-124543239/",
     headshot: "/assets/events-images/deni.jpg",
   },
